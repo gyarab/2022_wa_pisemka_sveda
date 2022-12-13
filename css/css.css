@@ -32,6 +32,16 @@ li {
     height: 100px;
 }
 
+.iframe-flex-direction {
+    flex-direction: row;
+}
+
+@media screen and (max-width: 991px) {
+    .iframe-flex-direction {
+        flex-direction: column;
+    }
+}
+
 @media screen and (max-width: 500px) {
     .custom-list {
         flex-direction: column;
