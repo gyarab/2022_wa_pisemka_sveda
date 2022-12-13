@@ -1,0 +1,43 @@
+.bg-lightskyblue {
+    background-color: lightskyblue;
+}
+
+.bg-green {
+    background-color: green;
+}
+
+.bg-orange {
+    background-color: orange;
+}
+
+.hero-img {
+    height: 200px;
+}
+
+h1 {
+    color: white;
+}
+
+.custom-list {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    list-style-type: none;
+}
+
+li {
+    color: white;
+    width: 50%;
+    height: 100px;
+}
+
+@media screen and (max-width: 500px) {
+    .custom-list {
+        flex-direction: column;
+    }
+
+    li {
+        width: 100%;
+    }
+}
